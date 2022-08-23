@@ -1,5 +1,8 @@
 import React from 'react';
-import { FaFacebookSquare, FaGithubSquare, FaInvision, FaSkype, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaFacebookSquare, FaGithubSquare, FaInvision, FaSkype, FaTelegram, FaTwitter, FaPhoneAlt, FaLink } from 'react-icons/fa';
+import { SiGmail } from "react-icons/si";
+import { MdLocationOn, MdSupportAgent } from "react-icons/md";
+
 
 const Footer = () => {
     return (
@@ -23,6 +26,7 @@ const Footer = () => {
                         <span className='text-white p-2 m-1 bg-slate-600'><FaSkype></FaSkype></span>
                         <span className='text-white p-2 m-1 bg-slate-600'><FaTelegram></FaTelegram></span>
                         <span className='text-white p-2 m-1 bg-slate-600'><FaTwitter></FaTwitter></span>
+
                     </div>
 
 
@@ -45,13 +49,13 @@ const Footer = () => {
                     <p>Gallery</p>
                     <p>Contact</p>
                 </div>
-                <div className="footerCard p-12 text-gray-400 text-sm">
+                <div className="footerCard pt-12 text-gray-400 text-sm">
                     <h2 className='text-1xl text-yellow-50 pb-2'>Contact Details</h2>
-                    <p>Support Center</p>
-                    <p>Dhaka,Bangladesh</p>
-                    <p>01743775599</p>
-                    <p>infosports@gmail.com</p>
-                    <p>www.youtubesports.bd</p>
+                    <p className='flex'><span className='pr-2 text-blue-50 text-lg'><MdSupportAgent></MdSupportAgent></span> Support Center</p>
+                    <p className='flex'><span className='pr-2 text-blue-50 text-lg'><MdLocationOn></MdLocationOn></span> Dhaka,Bangladesh</p>
+                    <p className='flex'><span className='pr-2 text-blue-50 text-base'><FaPhoneAlt></FaPhoneAlt></span> 01743775599</p>
+                    <p className='flex'><span className='pr-2 text-blue-50 text-base'><SiGmail></SiGmail></span> infosports@gmail.com</p>
+                    <p className='flex'><span className='pr-2 text-blue-50 text-base'><FaLink></FaLink></span> www.youtubesports.bd</p>
                 </div>
 
             </div>
