@@ -16,7 +16,7 @@ const Footer = () => {
                     <p className='text-gray-400 text-sm'>
                         Football fans enjoy talking about their passion with others, especially on YouTube. Clip compilations that explore the culture and history of the game are particularly popular.
                     </p>
-                    <div className="flex pt-2">
+                    <div className="flex pt-2 cursor-pointer">
                         <span className='text-white p-2 m-1 bg-slate-600 '><FaFacebookSquare /></span>
                         <span className='text-white p-2 m-1 bg-slate-600'><FaGithubSquare /></span>
                         <span className='text-white p-2 m-1 bg-slate-600'><FaInvision /></span>
